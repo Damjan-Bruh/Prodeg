@@ -11,7 +11,7 @@ def game():
     py = 940
     WIN = pg.display.set_mode((w, h))
     pg.display.set_caption("Enemy Shooter classic 10062024")
-    BG = pg.transform.scale(pg.image.load("bg.png"), (w, h))
+    BG = pg.transform.scale(pg.image.load("bges.png"), (w, h))
     PW = 150
     PH = 350
     PH1 = 200
