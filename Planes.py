@@ -9,7 +9,7 @@ h = 750
 
 window = pg.display.set_mode((w, h))
 pg.display.set_caption('Planes')
-bg = pg.transform.scale(pg.image.load('bg.png'), (w, h))
+bg = pg.transform.scale(pg.image.load('bgp.png'), (w, h))
 
 plane_body_width = 200
 plane_body_height = 20
