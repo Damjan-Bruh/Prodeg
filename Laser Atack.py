@@ -37,7 +37,7 @@ bullet_speed = 5
 
 window = pg.display.set_mode((w, h))
 pg.display.set_caption('Laser Atack')
-bg = pg.transform.scale(pg.image.load('bg.png'), (w, h))
+bg = pg.transform.scale(pg.image.load('bgla.png'), (w, h))
 gun = pg.transform.scale(pg.image.load('gun.png'), (gun_width, gun_height))
 
 def draw(laser_left_1, laser_left_2, laser_left_3, laser_up_1, laser_up_2, laser_up_3, laser_right_1, laser_right_2, laser_right_3, laser_down_1, laser_down_2, laser_down_3, bullet_left_1, bullet_left_2, bullet_left_3, bullet_up_1, bullet_up_2, bullet_up_3, bullet_right_1, bullet_right_2, bullet_right_3, bullet_down_1, bullet_down_2, bullet_down_3):
