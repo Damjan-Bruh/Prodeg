@@ -6,7 +6,7 @@ h = 750
 
 window = pg.display.set_mode((w, h))
 pg.display.set_caption('Dodger')
-bg = pg.transform.scale(pg.image.load('bg.png'), (w, h))
+bg = pg.transform.scale(pg.image.load('bgdg.png'), (w, h))
 
 player_width = 50
 player_height = 100
