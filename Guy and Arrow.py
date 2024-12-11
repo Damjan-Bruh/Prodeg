@@ -11,7 +11,7 @@ def game():
 
     window = pg.display.set_mode((w, h))
     pg.display.set_caption('Guy and Arrow')
-    bg = pg.transform.scale(pg.image.load('bg.png'), (w, h))
+    bg = pg.transform.scale(pg.image.load('bgga.png'), (w, h))
 
     gw = 1000
     gh = 375
